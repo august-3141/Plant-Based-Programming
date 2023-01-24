@@ -54,4 +54,4 @@
 
 ---
 
-<i> (More testing needed for accurate data) </i>
+<i> (More testing needed for accurate data, including testing of larger target strings and testing on other systems.) </i>
