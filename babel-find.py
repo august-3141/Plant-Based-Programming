@@ -5,9 +5,8 @@ import os
 inputWord = str(input("Enter a word to find: "))
 babelString, alphaString, count, = "", "a b c d e f g h i j k l m n o p q r s t u v w x y z", 0
 alphaString = alphaString.split()
-time.sleep(1)
 os.system('cls')
-time.sleep(1)
+
 
 start = time.time()
 while (inputWord in babelString) == False:
