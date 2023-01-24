@@ -13,4 +13,4 @@ while (inputWord in babelString) == False:
 end = time.time()
 
 print(f"Babel String: {babelString} <--")
-print(f"Word found: \"{inputWord}\", Comparisons: {count} characters, Time Taken: {end - start}s")
+print(f"Word found: \"{inputWord}\", Comparisons: {count}, Time Taken: {end - start}s")
