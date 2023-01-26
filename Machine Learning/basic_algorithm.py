@@ -1,4 +1,4 @@
-# Tutorial at https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+# Code from https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 from pandas import read_csv
 from sklearn.model_selection import train_test_split
