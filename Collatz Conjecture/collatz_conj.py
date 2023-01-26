@@ -1,17 +1,20 @@
 x = int(input("Input a starting number: "))
-limit = int(input("Enter a limit for outputs: "))
-count = 0
+limit = False
 
-while count < limit:
+while limit == False:
 
-    print(x)
+    print(int(x))
 
-    if x % 2 == 0:
+    if x == 1:
 
-        x = x / 2
+        limit = True
 
     else:
 
-        x = (3 * x) + 1
+        if x % 2 == 0:
 
-    count = count + 1
+            x = x / 2
+
+        else:
+
+            x = (3 * x) + 1
