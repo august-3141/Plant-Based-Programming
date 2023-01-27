@@ -10,4 +10,10 @@ nouns = [chunk.text for chunk in doc.noun_chunks]
 verbs = [token.lemma_ for token in doc if token.pos_ == "VERB"]
 
 print(f"Nouns: {nouns}")
-print(f"Verbs: {verbs}")
+
+if "?" in text:
+
+    print(f"You asked a question about {nouns[-1]}:")
+    searchQ = nouns[-1].replace(" ", "_")
+
+    print(f"https://en.wikipedia.org/wiki/{searchQ}")
