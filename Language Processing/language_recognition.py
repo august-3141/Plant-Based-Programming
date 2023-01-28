@@ -2,7 +2,7 @@
 
 import spacy
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
 text = str(input("Enter a piece of text you want to analyze: "))
 doc = nlp(text)
 
